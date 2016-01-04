@@ -33,9 +33,9 @@ $(document).ready(function () {
 });
 
 $(window).load(function () {
-    $('main').removeClass('blur');
     setTimeout(function () {
         $('#loader').css('display', 'none');
+        $('main').removeClass('blur');
     }, 2000);
 
 });
