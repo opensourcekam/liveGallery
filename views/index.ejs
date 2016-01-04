@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ENG">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/jQuery/jquery.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <nav>
+        <!--    Navigation-->
+        <ul>
+            <a href="#" alt="x">
+                <li>29th</li>
+            </a>
+            <a href="#" alt="x">
+                <li>30th</li>
+            </a>
+            <a href="#" alt="x">
+                <li>31st</li>
+            </a>
+            <a href="#" alt="x">
+                <li>1st</li>
+            </a>
+            <a href="#" alt="x">
+                <li>2st</li>
+            </a>
+        </ul>
+    </nav>
+    <!--    end Navigation-->
+
+    <!--all video content -->
+
+    <main>
+        <!--    main-->
+        <article>
+            <section id="dec29">
+                <% if (dec29.length) { %>
+                    <% dec29.forEach(function(video){ %>
+                        <video width="400" loop>
+                            <source src="videos/mp4/29/<%= video %>" type="video/mp4">
+                        </video>
+                        <% }) %>
+                            <% } %>
+            </section>
+
+            <section id="dec30">
+                <% if (dec30.length) { %>
+                    <% dec30.forEach(function(video){ %>
+                        <video width="400" loop>
+                            <source src="videos/mp4/30/<%= video %>" type="video/mp4">
+                        </video>
+                        <% }) %>
+                            <% } %>
+            </section>
+            <section id="dec31">
+                <% if (dec31.length) { %>
+                    <% dec31.forEach(function(video){ %>
+                        <video width="400" loop>
+                            <source src="videos/mp4/31/<%= video %>" type="video/mp4">
+                        </video>
+                        <% }) %>
+                            <% } %>
+            </section>
+            <section id="dec1">
+                <% if (dec1.length) { %>
+                    <% dec1.forEach(function(video){ %>
+                        <video width="400" loop>
+                            <source src="videos/mp4/1/<%= video %>" type="video/mp4">
+                        </video>
+                        <% }) %>
+                            <% } %>
+            </section>
+            <section id="dec2">
+                <% if (dec2.length) { %>
+                    <% dec2.forEach(function(video){ %>
+                        <video width="400" loop>
+                            <source src="videos/mp4/2/<%= video %>" type="video/mp4">
+                        </video>
+                        <% }) %>
+                            <% } %>
+            </section>
+        </article>
+    </main>
+    <!--    end main-->
+
+
+
+    <!--testing-->
+
+
+
+</body>
+
+</html>
+
+<script src="javascripts/main.js"></script>
