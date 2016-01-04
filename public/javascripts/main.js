@@ -4,6 +4,7 @@ $(document).ready(function () {
         this.play();
     }, function () {
         this.pause();
+        this.currentTime = 0;
     });
 
     $('video').hover(function () {
