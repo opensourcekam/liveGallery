@@ -11,8 +11,9 @@
 </head>
 
 <body>
+<!--
     <nav>
-        <!--    Navigation-->
+            Navigation
         <ul>
             <a href="#" alt="x">
                 <li>29th</li>
@@ -31,60 +32,58 @@
             </a>
         </ul>
     </nav>
+-->
     <!--    end Navigation-->
 
     <!--all video content -->
-
-    <main>
+    <main class="wrap">
         <!--    main-->
-        <article>
-            <section id="dec29">
-                <% if (dec29.length) { %>
-                    <% dec29.forEach(function(video){ %>
-                        <video width="400" loop>
-                            <source src="videos/mp4/29/<%= video %>" type="video/mp4">
-                        </video>
-                        <% }) %>
-                            <% } %>
-            </section>
+        <section id="dec29">
+            <% if (dec29.length) { %>
+                <% dec29.forEach(function(video){ %>
+                    <video class="grid__col grid__col--1-of-3" width="300" loop>
+                        <source src="videos/mp4/29/<%= video %>" type="video/mp4">
+                    </video>
+                    <% }) %>
+                        <% } %>
+        </section>
 
-            <section id="dec30">
-                <% if (dec30.length) { %>
-                    <% dec30.forEach(function(video){ %>
-                        <video width="400" loop>
-                            <source src="videos/mp4/30/<%= video %>" type="video/mp4">
-                        </video>
-                        <% }) %>
-                            <% } %>
-            </section>
-            <section id="dec31">
-                <% if (dec31.length) { %>
-                    <% dec31.forEach(function(video){ %>
-                        <video width="400" loop>
-                            <source src="videos/mp4/31/<%= video %>" type="video/mp4">
-                        </video>
-                        <% }) %>
-                            <% } %>
-            </section>
-            <section id="dec1">
-                <% if (dec1.length) { %>
-                    <% dec1.forEach(function(video){ %>
-                        <video width="400" loop>
-                            <source src="videos/mp4/1/<%= video %>" type="video/mp4">
-                        </video>
-                        <% }) %>
-                            <% } %>
-            </section>
-            <section id="dec2">
-                <% if (dec2.length) { %>
-                    <% dec2.forEach(function(video){ %>
-                        <video width="400" loop>
-                            <source src="videos/mp4/2/<%= video %>" type="video/mp4">
-                        </video>
-                        <% }) %>
-                            <% } %>
-            </section>
-        </article>
+        <section id="dec30">
+            <% if (dec30.length) { %>
+                <% dec30.forEach(function(video){ %>
+                    <video class="grid__col grid__col--1-of-3" class="grid__col grid__col--1-of-3" width="300" loop>
+                        <source src="videos/mp4/30/<%= video %>" type="video/mp4">
+                    </video>
+                    <% }) %>
+                        <% } %>
+        </section>
+        <section id="dec31">
+            <% if (dec31.length) { %>
+                <% dec31.forEach(function(video){ %>
+                    <video class="grid__col grid__col--1-of-3" width="300" loop>
+                        <source src="videos/mp4/31/<%= video %>" type="video/mp4">
+                    </video>
+                    <% }) %>
+                        <% } %>
+        </section>
+        <section id="dec1">
+            <% if (dec1.length) { %>
+                <% dec1.forEach(function(video){ %>
+                    <video class="grid__col grid__col--1-of-3" width="300" loop>
+                        <source src="videos/mp4/1/<%= video %>" type="video/mp4">
+                    </video>
+                    <% }) %>
+                        <% } %>
+        </section>
+        <section id="dec2">
+            <% if (dec2.length) { %>
+                <% dec2.forEach(function(video){ %>
+                    <video class="grid__col grid__col--1-of-3" width="300" loop>
+                        <source src="videos/mp4/2/<%= video %>" type="video/mp4">
+                    </video>
+                    <% }) %>
+                        <% } %>
+        </section>
     </main>
     <!--    end main-->
 
