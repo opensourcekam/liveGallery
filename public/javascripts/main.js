@@ -7,8 +7,12 @@ $(document).ready(function () {
     });
 
     $('video').hover(function () {
-        $(this).addClass('blur');
-    }, function () {
-        $(this).removeClass('blur');
+        $(this).addClass("blur");
+        setTimeout(RemoveClass, 500);
     });
+
+    function RemoveClass() {
+        $('video').removeClass("blur");
+    }
+
 });
