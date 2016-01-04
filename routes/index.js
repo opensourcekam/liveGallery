@@ -17,7 +17,7 @@ router.get('/', function (req, res, next) {
         dec30: dec30,
         dec31: dec31,
         dec1: dec1,
-        dec2: dec29
+        dec2: dec2
     });
 });
 
