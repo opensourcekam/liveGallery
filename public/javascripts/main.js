@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // video play and pause
     $('video').hover(function () {
+        console.log(this);
         this.play();
     }, function () {
         this.pause();
@@ -15,5 +16,26 @@ $(document).ready(function () {
     function RemoveClass() {
         $('video').removeClass("blur");
     }
+
+    //    var timeoutId = 0;
+    //
+    //    $('video').mousedown(function () {
+    //        timeoutId = setTimeout(play, 1000);
+    //    }).bind('mouseup mouseleave', function () {
+    //        clearTimeout(timeoutId);
+    //    });
+    //    
+    //    function play(){
+    //        console.log('play');
+    //        console.log(this);
+    //    }
+
+});
+
+$(window).load(function () {
+    $('main').removeClass('blur');
+    setTimeout(function () {
+        $('#loader').css('display', 'none');
+    }, 2000);
 
 });

@@ -1,8 +1,14 @@
 var express = require('express');
 var httpServer = require('http-server');
 var router = express.Router();
-//var mf = require('mediaFiles');
+var mf = require('mediaFiles');
 var videos = require('../data.json');
+
+//running this will give all files for JSON
+//    TODO:
+//Automate mf.getMedia() so it writes directly to data.JSON
+
+//console.log(mf.getMedia());
 
 var dec29 = videos.dec29_mp4;
 var dec30 = videos.dec30_mp4;

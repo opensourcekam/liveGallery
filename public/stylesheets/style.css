@@ -42,6 +42,22 @@ nav ul li:hover {
 
 /*end video*/
 
+
+/*loader*/
+
+#loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+/*end loader/*/
+
+video.grid__col.grid__col--1-of-3 {
+    margin-bottom: 10px;
+}
+
 @charset "UTF-8";
 
 /*-----------------------------------*\
