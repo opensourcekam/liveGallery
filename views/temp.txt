@@ -1,0 +1,13 @@
+        <section id="dec30">
+            <% if (dec30.length) { %>
+                <% dec30.forEach(function(video){ %>
+                    <video class="grid__col grid__col--1-of-3" width="300 !important" loop>
+                        <source src="videos/mp4/30/<%= video %>" type="video/mp4">
+                    </video>
+                    <% }) %>
+                        <% } %>
+        </section>
+        
+
+        </section>
+

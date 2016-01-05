@@ -1,26 +1,20 @@
 <% include partials/template/head.ejs %>
-    <!--            Navigation-->
+    <!--nav-->
     <% include partials/template/nav.ejs %>
-        <!--    end Navigation-->
+        <!--end nav-->
 
-        <!--all video content -->
+        <!--main-->
         <img id="loader" src="images/loader.gif" alt="Loading..." style="display:block;" />
         <main class="wrap blur">
-            <!--    main-->
-            <section id="dec29">
-                <% if (dec29.length) { %>
-                    <% dec29.forEach(function(video){ %>
+            <section id="dec31">
+                <% if (dec31.length) { %>
+                    <% dec31.forEach(function(video){ %>
                         <video class="grid__col grid__col--1-of-3" width="300 !important" loop>
-                            <source src="videos/mp4/29/<%= video %>" type="video/mp4">
+                            <source src="videos/mp4/31/<%= video %>" type="video/mp4">
                         </video>
                         <% }) %>
                             <% } %>
             </section>
-
         </main>
         <!--    end main-->
-
-
-
-        <!--testing-->
         <% include partials/template/foot.ejs %>

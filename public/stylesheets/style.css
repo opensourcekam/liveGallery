@@ -1,6 +1,6 @@
 body,
 html {
-    background-color: #838383;
+    background-color: #262721;
 }
 
 
@@ -49,6 +49,7 @@ nav ul li:hover {
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 999999;
 }
 
 
@@ -436,10 +437,9 @@ video.grid__col.grid__col--1-of-3 {
 
 @media (max-width: 700px) {
     .grid__col {
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
-        width: auto;
+        /*        display: block;*/
+        /*        margin: 0 auto;*/
+        /*        width: auto;*/
     }
 }
 
