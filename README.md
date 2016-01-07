@@ -43,7 +43,7 @@
 - Heroku *🔨toolbelt🗜*
 
 #TODO
-- Make it so people can create their own gallerys
+- Make it so people can create their own ^LV GLLRYS^
 - automate the JSON file output
 - figure out a better way to node
 - eat 
