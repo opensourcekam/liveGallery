@@ -30,3 +30,15 @@
 
 #Preview
 ![alt tag](https://github.com/RobinsonKameron/liveGallery/blob/master/gifs/lvgllry_2.gif?raw=true)
+
+%Tech used%
+- Node.js ⚙
+- EJS 📝
+- HTML5 🖌
+- CSS3 🌅
+- JS 🔩
+- jQuery 🛠
+- NPM 📦
+- GIT ⏪
+- Heroku *🔨toolbelt🗜*
+
