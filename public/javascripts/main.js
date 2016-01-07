@@ -29,10 +29,13 @@ $(document).ready(function () {
     //        console.log('play');
     //        console.log(this);
     //    }
-
 });
 
 $(window).load(function () {
+    if ($(window).width() < 700) {
+        $('video').removeClass('grid__col--1-of-3');
+        $('video').addClass('');
+    } else {}
     setTimeout(function () {
         $('#loader').css('display', 'none');
         $('main').removeClass('blur');
