@@ -1,4 +1,5 @@
 # liveGallery
+- iPhone 6s live photo emulation with CSS3, HTML5 and JS
 
 # Idea
 - The idea behind lvgllry is to give the the same vibe experience when you are immersed in a live photo on an iPhone 6s.
