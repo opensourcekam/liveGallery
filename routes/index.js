@@ -1,13 +1,12 @@
 var express = require('express');
-var httpServer = require('http-server');
 var router = express.Router();
-var mf = require('mediaFiles');
+// Run index.js in ../mediaFiles and direct it to your live Gallery path (wd) it should print your files in an arr
+//var mf = require('mediaFiles');
 var videos = require('../data.json');
 
 //running this will give all files for JSON
 //    TODO:
 //Automate mf.getMedia() so it writes directly to data.JSON
-
 //console.log(mf.getMedia());
 
 var dec29 = videos.dec29_mp4;
